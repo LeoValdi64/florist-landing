@@ -15,43 +15,43 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ZenFlow Yoga | Yoga & Mindfulness Studio in Boulder, CO",
+  title: "PetalBloom Florist | Fresh Flowers & Elegant Arrangements",
   description:
-    "Discover inner peace at ZenFlow Yoga, Boulder's premier yoga and mindfulness studio. Offering Vinyasa, Hatha, Hot Yoga, Yin, Prenatal, and Meditation classes for all levels. Book your first class today.",
+    "PetalBloom Florist crafts stunning floral arrangements for weddings, events, sympathy, and everyday joy. Fresh, hand-arranged bouquets delivered with care. Order today.",
   keywords: [
-    "yoga studio Boulder CO",
-    "mindfulness Boulder",
-    "Vinyasa yoga",
-    "Hatha yoga",
-    "Hot yoga Boulder",
-    "Yin yoga",
-    "Prenatal yoga",
-    "Meditation classes",
-    "yoga classes near me",
-    "ZenFlow Yoga",
+    "florist",
+    "flower shop",
+    "wedding flowers",
+    "bridal bouquets",
+    "event floral arrangements",
+    "sympathy flowers",
+    "flower delivery",
+    "fresh bouquets",
+    "PetalBloom Florist",
+    "daily flower arrangements",
   ],
-  authors: [{ name: "ZenFlow Yoga" }],
+  authors: [{ name: "PetalBloom Florist" }],
   openGraph: {
-    title: "ZenFlow Yoga | Yoga & Mindfulness Studio in Boulder, CO",
+    title: "PetalBloom Florist | Fresh Flowers & Elegant Arrangements",
     description:
-      "Discover inner peace at ZenFlow Yoga. Offering diverse yoga and meditation classes for all levels in the heart of Boulder, Colorado.",
-    url: "https://zenflow-yoga.com",
-    siteName: "ZenFlow Yoga",
+      "Handcrafted floral designs for every occasion. Wedding flowers, event arrangements, daily bouquets, and sympathy tributes by PetalBloom Florist.",
+    url: "https://petalbloom-florist.com",
+    siteName: "PetalBloom Florist",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ZenFlow Yoga | Boulder, CO",
+    title: "PetalBloom Florist | Fresh Flowers & Elegant Arrangements",
     description:
-      "Boulder's premier yoga and mindfulness studio. Classes for all levels.",
+      "Handcrafted floral designs for weddings, events, and everyday beauty. Order fresh bouquets today.",
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "https://zenflow-yoga.com",
+    canonical: "https://petalbloom-florist.com",
   },
 };
 
@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <meta name="theme-color" content="#7c9a7e" />
+        <meta name="theme-color" content="#e91e63" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${playfair.variable} ${inter.variable} antialiased`}>

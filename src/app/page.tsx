@@ -1,10 +1,9 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Classes from "@/components/Classes";
-import Schedule from "@/components/Schedule";
-import Instructors from "@/components/Instructors";
-import Pricing from "@/components/Pricing";
+import Services from "@/components/Services";
+import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -14,11 +13,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Classes />
-        <Schedule />
-        <Instructors />
-        <Pricing />
+        <Services />
+        <Gallery />
         <Testimonials />
+        <About />
         <Contact />
       </main>
       <Footer />
