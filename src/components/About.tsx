@@ -35,8 +35,8 @@ const highlights = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 lg:py-28 bg-cream-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" className="py-16 sm:py-20 lg:py-28 bg-cream-50">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Story */}
           <div>
@@ -66,7 +66,7 @@ export default function About() {
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-3 gap-6 mt-8 pt-8 border-t border-petal-100">
+            <div className="grid grid-cols-3 gap-4 sm:gap-6 mt-8 pt-8 border-t border-petal-100">
               <div>
                 <div className="font-[family-name:var(--font-heading)] text-2xl font-bold text-petal-500">500+</div>
                 <div className="text-xs text-charcoal-500 mt-1">Weddings Styled</div>

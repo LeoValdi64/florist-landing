@@ -37,8 +37,8 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 lg:py-28 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="services" className="py-16 sm:py-20 lg:py-28 bg-white">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-petal-500 font-semibold text-sm uppercase tracking-wider">
@@ -58,7 +58,7 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group bg-cream-50 rounded-2xl p-8 border border-petal-100/50 hover:border-petal-200 hover:shadow-lg hover:shadow-petal-100/50 transition-all"
+              className="group bg-cream-50 rounded-2xl p-5 sm:p-8 border border-petal-100/50 hover:border-petal-200 hover:shadow-lg hover:shadow-petal-100/50 transition-all"
             >
               {/* Icon */}
               <div

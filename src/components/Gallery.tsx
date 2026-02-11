@@ -53,8 +53,8 @@ const galleryItems = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-20 lg:py-28 bg-cream-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="gallery" className="py-16 sm:py-20 lg:py-28 bg-cream-50">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-petal-500 font-semibold text-sm uppercase tracking-wider">

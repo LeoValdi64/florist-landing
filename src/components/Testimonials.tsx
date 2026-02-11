@@ -40,8 +40,8 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-20 lg:py-28 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="testimonials" className="py-16 sm:py-20 lg:py-28 bg-white">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-petal-500 font-semibold text-sm uppercase tracking-wider">
@@ -61,7 +61,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.name}
-              className={`bg-cream-50 rounded-2xl p-7 border border-petal-100/50 hover:border-petal-200 transition-all ${
+              className={`bg-cream-50 rounded-2xl p-5 sm:p-7 border border-petal-100/50 hover:border-petal-200 transition-all ${
                 index === 0 ? "md:col-span-2 lg:col-span-1" : ""
               }`}
             >
@@ -92,7 +92,7 @@ export default function Testimonials() {
                   <p className="font-semibold text-charcoal-800 text-sm">
                     {testimonial.name}
                   </p>
-                  <p className="text-charcoal-400 text-xs">
+                  <p className="text-charcoal-500 text-xs">
                     {testimonial.location} &middot; {testimonial.detail}
                   </p>
                 </div>
@@ -103,7 +103,7 @@ export default function Testimonials() {
 
         {/* Aggregate Rating */}
         <div className="mt-12 text-center">
-          <div className="inline-flex items-center gap-4 px-8 py-4 bg-petal-50 rounded-2xl border border-petal-100">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-4 px-6 sm:px-8 py-4 bg-petal-50 rounded-2xl border border-petal-100">
             <div className="flex items-center gap-1">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star
@@ -112,11 +112,11 @@ export default function Testimonials() {
                 />
               ))}
             </div>
-            <div className="text-left">
+            <div className="text-center sm:text-left">
               <p className="font-bold text-charcoal-900 text-sm">
                 4.9 out of 5 stars
               </p>
-              <p className="text-charcoal-400 text-xs">
+              <p className="text-charcoal-500 text-xs">
                 Based on 300+ reviews from happy clients
               </p>
             </div>

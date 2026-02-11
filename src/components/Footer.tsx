@@ -27,18 +27,18 @@ const footerLinks = {
 export default function Footer() {
   return (
     <footer className="bg-charcoal-900 text-charcoal-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Main Footer */}
-        <div className="py-16 grid sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
+        <div className="py-12 sm:py-16 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-8">
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div className="col-span-2 lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-5">
               <Flower2 className="w-6 h-6 text-petal-400" />
               <span className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">
                 Petal<span className="font-normal text-petal-400">Bloom</span>
               </span>
             </a>
-            <p className="text-charcoal-400 text-sm leading-relaxed max-w-xs mb-6">
+            <p className="text-charcoal-300 text-sm leading-relaxed max-w-xs mb-6">
               Crafting beautiful floral arrangements for life&apos;s most
               meaningful moments since 2010. Fresh blooms, delivered with love.
             </p>
@@ -70,7 +70,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="text-sm text-charcoal-400 hover:text-petal-300 transition-colors"
+                    className="text-sm text-charcoal-300 hover:text-petal-300 transition-colors"
                   >
                     {link.label}
                   </a>
@@ -89,7 +89,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="text-sm text-charcoal-400 hover:text-petal-300 transition-colors"
+                    className="text-sm text-charcoal-300 hover:text-petal-300 transition-colors"
                   >
                     {link.label}
                   </a>
@@ -108,7 +108,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="text-sm text-charcoal-400 hover:text-petal-300 transition-colors"
+                    className="text-sm text-charcoal-300 hover:text-petal-300 transition-colors"
                   >
                     {link.label}
                   </a>
@@ -120,10 +120,10 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="py-6 border-t border-charcoal-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-charcoal-500 text-xs">
-            2024 PetalBloom Florist. All rights reserved.
+          <p className="text-charcoal-400 text-xs text-center sm:text-left">
+            &copy; 2024 PetalBloom Florist. All rights reserved.
           </p>
-          <p className="flex items-center gap-1 text-charcoal-500 text-xs">
+          <p className="flex items-center justify-center gap-1 text-charcoal-400 text-xs">
             Made with <Heart className="w-3 h-3 text-petal-400" /> in Charleston, SC
           </p>
         </div>

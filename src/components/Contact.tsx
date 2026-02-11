@@ -32,8 +32,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 lg:py-28 bg-petal-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-16 sm:py-20 lg:py-28 bg-petal-50">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-petal-500 font-semibold text-sm uppercase tracking-wider">
@@ -68,7 +68,7 @@ export default function Contact() {
             ) : (
               <form
                 onSubmit={handleSubmit}
-                className="bg-white rounded-2xl border border-petal-100 p-8"
+                className="bg-white rounded-2xl border border-petal-100 p-5 sm:p-8"
               >
                 <div className="grid sm:grid-cols-2 gap-5">
                   {/* First Name */}
